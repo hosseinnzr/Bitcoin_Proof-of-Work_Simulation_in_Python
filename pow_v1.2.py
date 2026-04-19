@@ -15,7 +15,7 @@ class Block:
         self.timestamp = timestamp or time.time()
         self.nonce = 0
         self.hash = None
-        self.mining_time = None  # ⏱ زمان استخراج بلاک
+        self.mining_time = None 
 
     def calculate_hash(self):
         block_data = {

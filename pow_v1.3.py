@@ -95,9 +95,9 @@ class Blockchain:
         self.adjust_difficulty()
 
 
-# Simulation for 20 blocks
+# Simulation for 30 blocks
 blockchain = Blockchain(initial_difficulty=3) # Start higher to see effect faster
-num_blocks = 20
+num_blocks = 30
 
 print("\n--- Starting Adaptive PoW Simulation ---\n")
 for i in range(1, num_blocks):
